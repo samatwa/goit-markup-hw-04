@@ -391,6 +391,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .team-socials-link {
@@ -512,7 +513,6 @@ body {
 /* #region Footer */
 .footer {
   display: flex;
-  align-items: baseline;
   max-width: 1440px;
   margin: 0 auto;
   font-family: inherit;
@@ -548,13 +548,13 @@ body {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
   margin-right: 120px;
   gap: 16px;
 }
 
 .footer-wrapper {
   display: flex;
-  align-items: baseline;
   flex-direction: column;
 }
 
